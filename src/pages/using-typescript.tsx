@@ -2,8 +2,8 @@
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Layout } from "../components/layout"
+import { SEO } from "../components/seo"
 
 type DataProps = {
   site: {
@@ -23,8 +23,6 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   </Layout>
 )
 
-export default UsingTypescript
-
 export const query = graphql`
   {
     site {
@@ -32,3 +30,5 @@ export const query = graphql`
     }
   }
 `
+
+export default UsingTypescript
