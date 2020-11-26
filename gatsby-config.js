@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Jarett's Christmas Card`,
+    description: `Jarett's 2020 digital Christmas card.`,
+    author: `Jarett`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Jarett's Christmas Card`,
+        short_name: `Christmas Card`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
