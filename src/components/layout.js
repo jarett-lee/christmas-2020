@@ -37,9 +37,13 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <div>
+            {/* christmas-tree.png */}
+            {`Icons made by `}
+            <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
+            {` from `}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
         </footer>
       </div>
     </>
