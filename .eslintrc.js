@@ -19,6 +19,7 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint", "import"],
   rules: {
+    "react/prop-types": "off",
     "import/no-default-export": "error",
   },
   settings: {
