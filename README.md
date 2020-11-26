@@ -1,4 +1,5 @@
 # Christmas 2020
+
 Jarett's 2020 digital Christmas card.
 
 ## 🚀 Quick start
@@ -71,4 +72,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 📖 Blog
+
 I like to track my project's progress with a blog. Click [here](./blog/2020-11-25.md) to view the first entry.
