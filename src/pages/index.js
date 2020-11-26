@@ -1,3 +1,5 @@
+/* eslint import/no-default-export: "off" */
+
 import React from "react"
 import { Link } from "gatsby"
 
