@@ -1,3 +1,5 @@
+/* global __dirname */
+
 module.exports = {
   siteMetadata: {
     title: `Jarett's Christmas Card`,

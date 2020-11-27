@@ -11,6 +11,14 @@ module.exports = {
     "plugin:jest/recommended",
     "prettier",
   ],
+  overrides: [
+    {
+      files: ["*.js"],
+      rules: {
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+  ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
