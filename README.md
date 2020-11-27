@@ -13,6 +13,12 @@ Jarett's 2020 digital Christmas card.
     gatsby develop -p 8080
     ```
 
+1.  **Start tests.**
+
+    ```shell
+    npm run test -- --watch
+    ```
+
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8080`!

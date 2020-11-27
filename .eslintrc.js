@@ -8,6 +8,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:jest/recommended",
     "prettier",
   ],
   parser: "@typescript-eslint/parser",
@@ -21,6 +22,7 @@ module.exports = {
   rules: {
     "react/prop-types": "off",
     "import/no-default-export": "error",
+    "jest/consistent-test-it": ["error", { fn: "test" }],
   },
   settings: {
     react: {
