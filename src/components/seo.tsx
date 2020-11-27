@@ -9,7 +9,10 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-type MetaProps = React.DetailedHTMLProps<React.MetaHTMLAttributes<HTMLMetaElement>, HTMLMetaElement>
+type MetaProps = React.DetailedHTMLProps<
+  React.MetaHTMLAttributes<HTMLMetaElement>,
+  HTMLMetaElement
+>
 
 interface SeoProps {
   description?: string
@@ -73,7 +76,7 @@ export const Seo: React.FC<SeoProps> = ({
       name: `twitter:description`,
       content: metaDescription,
     },
-  ];
+  ]
 
   return (
     <Helmet
